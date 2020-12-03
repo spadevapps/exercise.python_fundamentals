@@ -11,10 +11,6 @@ class Calculator(object):
         return a * b
 
     def divide(self, a, b):
-        a = float(a)
+
         return a / b
-        #if a != 0 and b != 0:
-         #   div = a / b
-         #   return div
-       # else:
-        #    return ZeroDivisionError
+
