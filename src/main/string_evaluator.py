@@ -4,16 +4,16 @@ class StringManipulator(object):
         return "Hello World"
 
     def concatenate(self, value_to_be_added_to, value_to_add):
-        return value_to_be_added + value_to_add
+        return value_to_be_added_to + value_to_add
 
     def substring_inclusive(self, string_to_fetch_from, starting_index, ending_index):
         return string_to_fetch_from[starting_index:ending_index+1]
 
     def substring_exclusive(self, string_to_fetch_from, starting_index, ending_index):
-        return string_to_fetch_from[starting_index + 1:ending_index -1]
+        return string_to_fetch_from[starting_index + 1:ending_index]
 
     def compare(self, first_value, second_value):
-        if first_value == second_value:
+        if id(first_value) == id(second_value):
             return True
         else:
             return False

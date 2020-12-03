@@ -12,5 +12,5 @@ class Calculator(object):
 
     def divide(self, a, b):
 
-        return a / b
+        return round(a / b, 3)
 
