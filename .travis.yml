@@ -1,9 +1,9 @@
 language: python
-
+language: python
 cache: pip
 install:
   - pip install -r requirements.txt
 script:
-  - python tests.py
-calculator_test.py
+  - python calculator_test.py
+
 
