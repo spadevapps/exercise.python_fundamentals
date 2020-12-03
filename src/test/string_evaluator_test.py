@@ -77,7 +77,7 @@ class StringManipulatorTest(TestCase):
         for value_set in value_sets:
             # given
             first_value = value_set[0]
-            expected_output = value_set[2]
+            expected_output = value_set[1]
 
             # when
             actual_output = method_to_be_tested(first_value)
